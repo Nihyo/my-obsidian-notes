@@ -1,3 +1,5 @@
+## Software
+
 - Obsidian
 	- Installeer Obsidian (`flatpak run md.obsidian.Obsidian`)
 	- Definieer vault locatie (`cd ~/Documents/"Obsidian Vault"`) via terminal
@@ -10,6 +12,7 @@
 	- Script maken om auto git push acties uit te voeren bij afsluiting
 		  Script ex.
 			`#!/bin/bash`
+	- 
 			`#Start Obsidian (aangenomen dat het zo geïnstalleerd is)`
 			`flatpak run md.obsidian.Obsidian  &`
 		  
@@ -27,8 +30,24 @@
 			`else`
 				`###### echo "Push overgeslagen."`
 			`fi`
-		
-
-
-		  
-		  
+- Vesktop
+- Zenbrowser
+- Bitwarden
+- Steam
+- Folderstructuur?
+	- ex. `mkdir -p project/{scripts/{python,bash},data/raw,data/processed}`
+	  project/
+			├── scripts/
+				│   ├── python/
+				│   └── bash/
+			├── data/
+				│   ├── raw/
+				│   └── processed/
+	- Mappen voor:
+		- games
+		- projecten
+			- Web
+			- Python
+			- MOAH
+			- Linux
+- 
